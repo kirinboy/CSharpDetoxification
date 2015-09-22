@@ -1,5 +1,5 @@
 ﻿using System;
-using CSharpDetoxification.VirtualMemberCallInConstructor.Poison;
+using CSharpDetoxification.VirtualMemberCallInConstructor.Detoxification2;
 
 namespace CSharpDetoxification.VirtualMemberCallInConstructor
 {
@@ -7,7 +7,10 @@ namespace CSharpDetoxification.VirtualMemberCallInConstructor
     {
         static void Main()
         {
-            new Derived();
+            var d = new Derived();
+            Base b = d;
+            b.V();
+            d.V();
             Console.Read();
         }
     }
