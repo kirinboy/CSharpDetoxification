@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpDetoxification.VirtualMemberCallInConstructor.Detoxification2
+namespace CSharpDetoxification.VirtualMemberCallInConstructor.Detoxification
 {
     class Foo
     {

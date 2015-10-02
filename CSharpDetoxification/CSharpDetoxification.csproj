@@ -41,12 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="001_VirtualMemberCallInConstructor\Detoxification2.cs" />
+    <Compile Include="001_VirtualMemberCallInConstructor\Detoxification.cs" />
     <Compile Include="001_VirtualMemberCallInConstructor\Poison2.cs" />
     <Compile Include="001_VirtualMemberCallInConstructor\Poison1.cs" />
-    <Compile Include="001_VirtualMemberCallInConstructor\Detoxification1.cs" />
-    <Compile Include="001_VirtualMemberCallInConstructor\Program.cs" />
     <Compile Include="001_VirtualMemberCallInConstructor\Symptom.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

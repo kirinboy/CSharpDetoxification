@@ -2,7 +2,6 @@
 
 namespace CSharpDetoxification.VirtualMemberCallInConstructor.Poison2
 {
-    
     class Base
     {
         public void M()
@@ -27,5 +26,18 @@ namespace CSharpDetoxification.VirtualMemberCallInConstructor.Poison2
             Console.WriteLine("Derived.V");
         }
     }
-    
+
+    class Client
+    {
+        static void Main2()
+        {
+            var d = new Derived();
+            Base b = d;
+            b.M();
+            b.V();
+            d.M();
+            d.V();
+            Console.Read();
+        }
+    }
 }
