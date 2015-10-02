@@ -1,4 +1,4 @@
-####Hi there，Friends team的艾瑞巴蒂！
+####Hi there，艾瑞巴蒂！
 ####让我看到你们的双手！
 ####让我听到你们的尖叫！
 ####跟我一起，say yeahhhhhh!（yeahhhhhh!）
