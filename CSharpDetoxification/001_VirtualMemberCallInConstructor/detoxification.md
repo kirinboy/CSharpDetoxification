@@ -7,14 +7,6 @@
 我们先来看这样一段代码：
 
 ```csharp
-class Foo
-{
-    public Foo(string s)
-    {
-        Console.WriteLine(s);
-    }
-    public void Bar() { }
-}
 class Base
 {
     public Base()
@@ -176,8 +168,13 @@ class Derived : Base
 ##尾声
 
 Come on! 艾瑞巴蒂！This is MC解毒菌！
+
 This is just the start!
+
 This is never gonna be over!
+
 跟我一起，say yeahhhhh!（yearhhhhhh!）
+
 Say yeahhhhh!（yearhhhhh!）
+
 C-Sharrrrrrrrrrrp!!!!
